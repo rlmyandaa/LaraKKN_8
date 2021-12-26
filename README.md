@@ -1,5 +1,5 @@
 
-![enter image description here](https://raw.githubusercontent.com/rlmyandaa/LaraKKN_8/master/public/images/ico.jpeg)
+![enter image description here](https://github.com/rlmyandaa/LaraKKN_8/blob/main/public/images/ico.jpeg)
 # LARA KKN
 **Laravel KKN management web apps based on Jeremy Kenedy Laravel Auth 7.**
 
