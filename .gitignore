@@ -43,6 +43,11 @@ yarn.lock
 /storage/framework
 /storage/logs
 /storage/users
+/storage/app/Daily Report
+/storage/app/FinalReport
+/storage/app/Proker/Accepted
+/storage/app/Proker/Proposed-Pending
+/storage/app/Proker/Rejected
 packages/
 .phpunit.result.cache
 .env.backup
