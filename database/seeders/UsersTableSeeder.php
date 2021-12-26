@@ -47,10 +47,46 @@ class UsersTableSeeder extends Seeder
         $user = User::where('email', '=', 'student_demo@larakkn.com')->first();
         if ($user === null) {
             $user = User::create([
-                'name'                           => 'Student',
+                'name'                           => 'Student 1',
                 'first_name'                     => 'Student',
-                'last_name'                      => 'Demo',
-                'email'                          => 'student_demo@larakkn.com',
+                'last_name'                      => 'Demo 1',
+                'email'                          => 'student_demo1@larakkn.com',
+                'password'                       => Hash::make('password'),
+                'token'                          => str_random(64),
+                'activated'                      => true,
+                'signup_ip_address'              => '127.0.0.1',
+                'signup_confirmation_ip_address' => '127.0.0.1',
+            ]);
+
+            $user->profile()->save(new Profile());
+            $user->attachRole($studentRole);
+            $user->save();
+        }
+        $user = User::where('email', '=', 'student_demo@larakkn.com')->first();
+        if ($user === null) {
+            $user = User::create([
+                'name'                           => 'Student 2',
+                'first_name'                     => 'Student',
+                'last_name'                      => 'Demo 2',
+                'email'                          => 'student_demo2@larakkn.com',
+                'password'                       => Hash::make('password'),
+                'token'                          => str_random(64),
+                'activated'                      => true,
+                'signup_ip_address'              => '127.0.0.1',
+                'signup_confirmation_ip_address' => '127.0.0.1',
+            ]);
+
+            $user->profile()->save(new Profile());
+            $user->attachRole($studentRole);
+            $user->save();
+        }
+        $user = User::where('email', '=', 'student_demo@larakkn.com')->first();
+        if ($user === null) {
+            $user = User::create([
+                'name'                           => 'Student 3',
+                'first_name'                     => 'Student',
+                'last_name'                      => 'Demo 3',
+                'email'                          => 'student_demo3@larakkn.com',
                 'password'                       => Hash::make('password'),
                 'token'                          => str_random(64),
                 'activated'                      => true,
@@ -65,10 +101,28 @@ class UsersTableSeeder extends Seeder
         $user = User::where('email', '=', 'dosen_demo@larakkn.com')->first();
         if ($user === null) {
             $user = User::create([
-                'name'                           => 'Dosen',
+                'name'                           => 'Dosen 1',
                 'first_name'                     => 'Dosen',
-                'last_name'                      => 'Demo',
-                'email'                          => 'dosen_demo@larakkn.com',
+                'last_name'                      => 'Demo 1',
+                'email'                          => 'dosen_demo1@larakkn.com',
+                'password'                       => Hash::make('password'),
+                'token'                          => str_random(64),
+                'activated'                      => true,
+                'signup_ip_address'              => '127.0.0.1',
+                'signup_confirmation_ip_address' => '127.0.0.1',
+            ]);
+
+            $user->profile()->save(new Profile());
+            $user->attachRole($dosenRole);
+            $user->save();
+        }
+        $user = User::where('email', '=', 'dosen_demo@larakkn.com')->first();
+        if ($user === null) {
+            $user = User::create([
+                'name'                           => 'Dosen 2',
+                'first_name'                     => 'Dosen',
+                'last_name'                      => 'Demo 2',
+                'email'                          => 'dosen_demo2@larakkn.com',
                 'password'                       => Hash::make('password'),
                 'token'                          => str_random(64),
                 'activated'                      => true,

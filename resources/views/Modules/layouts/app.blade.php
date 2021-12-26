@@ -11,8 +11,7 @@
 
     <title>@hasSection('template_title')@yield('template_title') | @endif {{ config('app.name', Lang::get('titles.app')) }}</title>
     <meta name="description" content="">
-    <meta name="author" content="Jeremy Kenedy">
-    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="icon" href="{{ url('favicons/favicon.ico?v=1') }}" type="image/x-icon"/>
 
     {{-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries --}}
     <!--[if lt IE 9]>
@@ -45,7 +44,6 @@
 
 
     @yield('head')
-    @include('scripts.ga-analytics')
 </head>
 
 <body>
