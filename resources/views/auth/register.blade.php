@@ -9,7 +9,6 @@
     <title>LARA KKN - SIGN IN</title>
     <link rel="icon" href="{{ url('favicons/favicon.ico?v=1') }}" type="image/x-icon"/>
     <!-- Font Awesome icons (free version)-->
-    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
     <!-- Google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
@@ -19,10 +18,6 @@
         :root {
             --input-padding-x: 1.5rem;
             --input-padding-y: .75rem;
-        }
-
-        body {
-            background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("/img/17580.jpg");
         }
 
         .card-signin {
@@ -238,29 +233,12 @@
         </div>
     </header>
 
-    <!-- Contact-->
-    <section class="contact-section bg-black">
-        <div class="container">
-
-            <div class="social d-flex justify-content-center">
-                <a class="mx-2" href="https://www.linkedin.com/in/hersyanda-putra/"><i class="fab fa-linkedin"></i></a>
-                <a class="mx-2" href="https://github.com/rlmyandaa"><i class="fab fa-github"></i></a>
-                <a class="mx-2" href="https://instagram.com/l0wpassfilter"><i class="fab fa-instagram"></i></a>
-                <a class="mx-2" href="https://www.flickr.com/people/hersyandaa/"><i class="fab fa-flickr"></i></a>
-            </div>
-        </div>
-    </section>
-    <!-- Footer-->
-    <footer class="footer bg-black small text-center text-white-50">
-        <div class="container">Copyright © Hersyanda Putra Adi 2021</div>
-    </footer>
     <!-- Bootstrap core JS-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Third party plugin JS-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
     <!-- Core theme JS-->
-    <script src="js/scripts.js"></script>
 </body>
 
 </html>

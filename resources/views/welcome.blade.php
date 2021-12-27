@@ -21,6 +21,10 @@
             font-weight: 200;
             height: 100vh;
             margin: 0;
+            background-image: url('images/home.jpg');
+            background-size: cover;
+            background-position:top center;
+            align-items: center;
         }
 
         .full-height {
@@ -44,6 +48,8 @@
         }
 
         .content {
+            margin-top: 30vh;
+            margin-bottom: 30vh;
             text-align: center;
         }
 
@@ -80,7 +86,7 @@
 </head>
 
 <body>
-    <div style="background-image: url('images/home.jpg'); background-size: cover; background-position: top center;align-items: center;">
+    <div style="">
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
             <div class="top-right links">
@@ -99,7 +105,6 @@
                 <div class="title ">
                     LARA KKN<br />
                     <small>
-                        
                         Laravel Based KKN Management System
                     </small>
                 </div>
