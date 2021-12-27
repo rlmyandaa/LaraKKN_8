@@ -40,9 +40,6 @@ yarn.lock
 /storage/*.key
 /vendor
 /storage/debugbar
-/storage/framework/cache/data/*
-/storage/framework/sessions/*
-/storage/framework/views/*
 /storage/logs
 /storage/users
 /storage/app/Daily Report
