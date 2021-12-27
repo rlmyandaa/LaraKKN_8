@@ -48,7 +48,7 @@
 <body>
     <div id="app">
 
-        @include('modules.partials.nav')
+        @include('Modules.partials.nav')
 
         <main class="py-4">
 

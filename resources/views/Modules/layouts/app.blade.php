@@ -49,7 +49,7 @@
 <body>
     <div id="app">
 
-        @include('modules.partials.nav')
+        @include('Modules.partials.nav')
 
         <main class="py-4">
 
@@ -67,9 +67,9 @@
                         <div class="card">
                             <div class="card-header">
                                 @if (Auth::User()->hasRole('student'))
-                                @include('modules.partials.student-menu')
+                                @include('Modules.partials.student-menu')
                                 @elseif (Auth::User()->hasRole('dosen'))
-                                @include('modules.partials.dosen-menu')
+                                @include('Modules.partials.dosen-menu')
                                 @endif
                             </div>
 
