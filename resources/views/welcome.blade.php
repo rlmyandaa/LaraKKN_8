@@ -48,7 +48,7 @@
         }
 
         .content {
-            margin-top: 30vh;
+            margin-top: 40vh;
             margin-bottom: 30vh;
             text-align: center;
         }
@@ -63,12 +63,14 @@
 
         .links>a {
             color: whitesmoke;
-            padding: 0 25px;
             font-size: 13px;
             font-weight: 600;
             letter-spacing: .1rem;
             text-decoration: none;
             text-transform: uppercase;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
         }
 
         .m-b-md {
@@ -117,7 +119,6 @@
                 <div class="links">
                     <a>Hersyanda Putra Adi</a>
                     <a>Irfan Abdurrazaq</a>
-
                 </div>
                 <br />
                 <br />
