@@ -68,6 +68,13 @@
         .m-b-md {
             margin-bottom: 30px;
         }
+
+        .gh-logo {
+            transition: 0.3s;
+        }
+        .gh-logo:hover {
+            opacity: 80%;
+        }
     </style>
 
 </head>
@@ -113,8 +120,7 @@
                     <a> Find this Project on : </a>
                 </div>
                 <div class="links">
-                    <a href="https://github.com/rlmyandaa/LaraKKN_8"><img src="images/github.png"></a>
-
+                    <a class="gh-logo" href="https://github.com/rlmyandaa/LaraKKN_8"><img src="images/github.png"></a>
                 </div>
             </div>
         </div>
