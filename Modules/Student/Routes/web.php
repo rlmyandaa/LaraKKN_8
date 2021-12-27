@@ -11,7 +11,7 @@
 |
 */
 
-Route::group(['prefix' => 'student', 'middleware' => ['auth', 'activated', 'role:student|admin', 'activity', 'twostep', 'checkblocked']], function () {
+Route::group(['prefix' => 'student', 'middleware' => ['auth', 'activated', 'role:student|admin', 'activity', 'twostep']], function () {
     Route::get('/', 'StudentController@index')->name('student.home');
 
     /*

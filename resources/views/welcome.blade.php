@@ -73,6 +73,16 @@
             justify-content: center;
         }
 
+        .navlinks>a {
+            color: whitesmoke;
+            font-size: 13px;
+            font-weight: 600;
+            letter-spacing: .1rem;
+            text-decoration: none;
+            text-transform: uppercase;
+            padding-left: 30px;
+        }
+
         .m-b-md {
             margin-bottom: 30px;
         }
@@ -91,7 +101,7 @@
     <div style="">
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
-            <div class="top-right links">
+            <div class="top-right navlinks">
                 @auth
                 <a href="{{ url('/home') }}">Home</a>
                 @else

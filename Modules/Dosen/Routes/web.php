@@ -11,7 +11,7 @@
 |
 */
 
-Route::group(['prefix' => 'dosen', 'middleware' => ['auth', 'activated', 'role:dosen|admin', 'activity', 'twostep', 'checkblocked']], function () {
+Route::group(['prefix' => 'dosen', 'middleware' => ['auth', 'activated', 'role:dosen|admin', 'activity', 'twostep']], function () {
     Route::get('/', 'DosenController@index')->name('dosen.home');
 
 
