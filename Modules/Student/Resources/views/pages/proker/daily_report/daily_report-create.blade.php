@@ -1,4 +1,4 @@
-@extends('modules.layouts.app-f')
+@extends('Modules.layouts.app-f')
 
 
 @push('styles_addon')

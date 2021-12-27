@@ -1,5 +1,5 @@
 
-@extends('modules.layouts.app-f')
+@extends('Modules.layouts.app-f')
 @section('contentori')
 <div>
     Selamat datang di portal manajemen LARA KKN.
