@@ -150,7 +150,7 @@
     <nav class="navbar navbar-expand-sm navbar-light fixed-top" id="mainNav" style="background-color: transparent !important;">
         <div class="container">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/">Landing Page</a></li>
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/" style="color: whitesmoke !important;">Landing Page</a></li>
             </ul>
         </div>
     </nav>
