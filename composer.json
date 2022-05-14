@@ -33,7 +33,7 @@
         "laravel/tinker": "^2.0",
         "laravel/ui": "^2.0",
         "laravelcollective/html": "^6.1",
-        "nwidart/laravel-modules": "^8.2",
+        "nwidart/laravel-modules": "^8.3",
         "pusher/pusher-php-server": "^4.1",
         "rap2hpoutre/laravel-log-viewer": "^1.4",
         "shvetsgroup/laravel-email-database-log": "^8.0.0",
