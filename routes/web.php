@@ -47,7 +47,7 @@ Route::group(['middleware' => ['auth', 'activated', 'activity', 'checkblocked']]
 
     // Activation Routes
     Route::get('/activation-required', ['uses' => 'App\Http\Controllers\Auth\ActivateController@activationRequired'])->name('activation-required');
-    Route::get('/logout', ['uses' => 'App\Http\Controllers\Auth\LoginController@logout'])->name('logout');
+    Route::get('/logout', ['uses' => 'App\Http\Controllers\Auth\LoginController@logout']);
 });
 
 // Registered and Activated User Routes
@@ -58,7 +58,6 @@ Route::group(['middleware' => ['auth', 'activated', 'activity', 'twostep', 'chec
 
     // Show users profile - viewable by other users.
     Route::get('profile/{username}', [
-        'as'   => '{username}',
         'uses' => 'App\Http\Controllers\ProfilesController@show',
     ]);
 });
@@ -84,11 +83,9 @@ Route::group(['middleware' => ['auth', 'activated', 'currentUser', 'activity', '
         'uses' => 'App\Http\Controllers\ProfilesController@updateUserAccount',
     ]);
     Route::put('profile/{username}/updateUserPassword', [
-        'as'   => '{username}',
         'uses' => 'App\Http\Controllers\ProfilesController@updateUserPassword',
     ]);
     Route::delete('profile/{username}/deleteUserAccount', [
-        'as'   => '{username}',
         'uses' => 'App\Http\Controllers\ProfilesController@deleteUserAccount',
     ]);
 
